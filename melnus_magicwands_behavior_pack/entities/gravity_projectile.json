@@ -1,0 +1,38 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "melnus:gravity_projectile",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:shulker_bullet"
+    },
+    "components": {
+      "minecraft:collision_box": { "width": 0.3, "height": 0.3 },
+      "minecraft:projectile": {
+        "on_hit": { 
+          "impact_damage": { 
+            "damage": 12, 
+            "knockback": true
+          },
+          "mob_effect": {
+            "effect": "levitation",
+            "duration": 180,
+            "amplifier": 1
+          },
+          "spawn_aoe_cloud": {
+            "radius": 1.5,
+            "potion": 17,
+            "particle": "minecraft:basic_portal_particle",
+            "duration": 2,
+            "color": [ 120, 0, 180 ],
+            "affect_owner": false
+          }
+        },
+        "power": 0.6, "gravity": 0.0, "offset": [0, 1.2, 0.8]
+      },
+      "minecraft:physics": {}
+    }
+  }
+}

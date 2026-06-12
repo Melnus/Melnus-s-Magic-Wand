@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "melnus:light_projectile",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:arrow"
+    },
+    "components": {
+      "minecraft:collision_box": { "width": 0.25, "height": 0.25 },
+      "minecraft:projectile": {
+        "on_hit": { 
+          "impact_damage": { "damage": 18, "knockback": true },
+          "spawn_aoe_cloud": {
+            "radius": 1.5,
+            "potion": 17,
+            "particle": "minecraft:totem_particle",
+            "duration": 2,
+            "color": [ 255, 220, 100 ],
+            "affect_owner": false
+          }
+        },
+        "power": 3.0, "gravity": 0.05, "offset": [0, 1.2, 0.8]
+      },
+      "minecraft:physics": {}
+    }
+  }
+}

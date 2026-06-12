@@ -1,0 +1,38 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "melnus:ice_projectile",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball"
+    },
+    "components": {
+      "minecraft:collision_box": { "width": 0.25, "height": 0.25 },
+      "minecraft:projectile": {
+        "on_hit": { 
+          "impact_damage": { 
+            "damage": 12, 
+            "knockback": false
+          },
+          "mob_effect": {
+            "effect": "slowness",
+            "duration": 100,
+            "amplifier": 6
+          },
+          "spawn_aoe_cloud": {
+            "radius": 1.5,
+            "potion": 17,
+            "particle": "minecraft:snowflake_particle",
+            "duration": 2,
+            "color": [ 180, 220, 255 ],
+            "affect_owner": false
+          }
+        },
+        "power": 1.8, "gravity": 0.03, "offset": [0, 1.2, 0.8]
+      },
+      "minecraft:physics": {}
+    }
+  }
+}

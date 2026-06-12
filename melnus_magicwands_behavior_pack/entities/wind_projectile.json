@@ -1,0 +1,50 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "melnus:wind_projectile",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:arrow"
+    },
+    "components": {
+      "minecraft:collision_box": { "width": 0.3, "height": 0.3 },
+      "minecraft:explode": {
+        "power": 1.5,
+        "particle_effect": "wind_burst",
+        "sound_effect": "wind_charge.burst",
+        "knockback_scaling": 1.5,
+        "negates_fall_damage": true,
+        "causes_fire": false,
+        "breaks_blocks": false,
+        "allow_underwater": true,
+        "toggles_blocks": true,
+        "damage_scaling": 0,
+        "max_resistance": 0
+      },
+      "minecraft:projectile": {
+        "on_hit": { 
+          "impact_damage": { 
+            "damage": 15, 
+            "knockback": true
+          },
+          "mob_effect": {
+            "effect": "levitation",
+            "duration": 10,
+            "amplifier": 20
+          },
+          "spawn_aoe_cloud": {
+            "radius": 1.5,
+            "potion": 17,
+            "particle": "minecraft:wind_explosion_emitter",
+            "duration": 2,
+            "affect_owner": false
+          }
+        },
+        "power": 2.8, "gravity": 0.01, "offset": [0, 1.2, 0.8]
+      },
+      "minecraft:physics": {}
+    }
+  }
+}
