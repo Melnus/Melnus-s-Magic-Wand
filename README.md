@@ -1,6 +1,6 @@
 # Melnus's Magic Wands
 
-<img src="./pack_icon.png" width="60%">
+<img src="./melnus_magicwands_behavior_pack/pack_icon.png" width="60%">
 
 A Minecraft Bedrock Add-on that introduces a powerful elemental magic system alongside a complete alchemical progression tree. 
 
