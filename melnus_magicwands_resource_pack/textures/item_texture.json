@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "melnus_magicwands_resource_pack",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "melnus_book": {
+      "textures": "textures/items/book_enchanted"
+    }
+  }
+}
