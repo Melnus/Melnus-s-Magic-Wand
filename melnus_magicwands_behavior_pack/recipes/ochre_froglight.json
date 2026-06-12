@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "melnus:ochre_froglight"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      { "item": "minecraft:slime_ball" },
+      { "item": "minecraft:sand" },
+      { "item": "minecraft:experience_bottle" }
+    ],
+    "result": {
+      "item": "minecraft:ochre_froglight",
+      "count": 4
+    }
+  }
+}

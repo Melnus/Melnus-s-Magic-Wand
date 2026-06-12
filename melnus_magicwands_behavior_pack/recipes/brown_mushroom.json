@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "melnus:brown_mushroom"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      { "item": "minecraft:red_mushroom" },
+      { "item": "minecraft:dirt" },
+      { "item": "minecraft:experience_bottle" }
+    ],
+    "result": {
+      "item": "minecraft:brown_mushroom",
+      "count": 2
+    }
+  }
+}

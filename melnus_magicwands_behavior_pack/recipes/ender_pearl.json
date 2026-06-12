@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "melnus:ender_pearl"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      { "item": "minecraft:slime_ball" },
+      { "item": "minecraft:quartz" },
+      { "item": "minecraft:experience_bottle" }
+    ],
+    "result": {
+      "item": "minecraft:ender_pearl",
+      "count": 1
+    }
+  }
+}

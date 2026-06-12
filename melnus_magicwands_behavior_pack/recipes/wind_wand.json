@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "melnus:wind_wand"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      { "item": "minecraft:book" },
+      { "item": "minecraft:feather" },
+      { "item": "minecraft:experience_bottle" }
+    ],
+    "result": {
+      "item": "melnus:wind_wand",
+      "count": 16
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "melnus:turtle_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      { "item": "minecraft:moss_block" },
+      { "item": "minecraft:bone_meal" },
+      { "item": "minecraft:experience_bottle" }
+    ],
+    "result": {
+      "item": "minecraft:turtle_helmet",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "melnus:fire_wand"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      { "item": "minecraft:book" },
+      { "item": "minecraft:gunpowder" },
+      { "item": "minecraft:experience_bottle" }
+    ],
+    "result": {
+      "item": "melnus:fire_wand",
+      "count": 16
+    }
+  }
+}
