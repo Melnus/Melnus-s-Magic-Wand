@@ -1,0 +1,48 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Melnus's Magic Wands [v023]",
+        "description": "One swing can change the world",
+        "uuid": "81ce97e4-4c52-4899-9a3c-febcd01fe6a8",
+        "version": [
+            0,
+            2,
+            3
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ],
+        "vanilla": [
+            1,
+            12,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "One swing can change the world",
+            "type": "data",
+            "uuid": "0157eabe-2de3-4294-8447-db8089309412",
+            "version": [
+                0,
+                2,
+                3
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "cd0715a2-7851-4723-ad71-bb7806b4755b",
+            "version": [
+                0,
+                2,
+                3
+            ]
+        }
+    ],
+    "metadata": {
+        "product_type": "addon"
+    }
+}
