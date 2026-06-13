@@ -1,13 +1,13 @@
 {
     "format_version": 2,
     "header": {
-        "name": "Melnus's Magic Wands [v025]",
+        "name": "Melnus's Magic Wands [v026]",
         "description": "One swing can change the world",
         "uuid": "81ce97e4-4c52-4899-9a3c-febcd01fe6a8",
         "version": [
             0,
             2,
-            5
+            6
         ],
         "min_engine_version": [
             1,
@@ -28,7 +28,7 @@
             "version": [
                 0,
                 2,
-                5
+                6
             ]
         }
     ],
@@ -38,7 +38,7 @@
             "version": [
                 0,
                 2,
-                5
+                6
             ]
         }
     ],
