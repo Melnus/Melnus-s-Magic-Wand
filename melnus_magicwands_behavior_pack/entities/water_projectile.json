@@ -22,7 +22,8 @@
             "affect_owner": false
           }
         },
-        "power": 2.0, "gravity": 0.05, "offset": [0, 1.2, 0.8]
+        "power": 2.0, "gravity": 0.05, "offset": [0, 1.2, 0.8],
+        "liquid_inertia": 1.0
       },
       "minecraft:physics": {}
     }
